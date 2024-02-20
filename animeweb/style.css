@@ -1,0 +1,304 @@
+body {
+  font-family:'Protest Revolution', sans-serif;
+  margin: 0;
+  padding: 0 28px 28px;
+  background-color:#5b84b0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background:#fc766a;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 10px;
+  width:100%;
+}
+header:hover{
+  color:#00b3ff;
+  transition: 1s;
+  cursor:pointer;
+}
+header h1{
+  margin-bottom:0;
+  padding:0;
+}
+.parent{
+  display: block;
+  padding:0;
+  margin:0;
+  max-width: 1000px;
+  align-items: center;
+  margin: 0;
+  margin-left: 40px;
+}
+.parent2{
+  max-width: 2000px;
+}
+.TAG{
+  color: white;
+}
+.TAG:HOVER{
+  color:grey;
+  transition: 1s;
+  cursor:pointer;
+}
+
+nav {
+  background: transparent;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #94ff66;
+}
+
+.description {
+  display: block;
+  color:black;
+  background-color: rgb(255, 255, 255,0.2);
+  opacity: 0,5;
+  max-height: 200px;
+  max-width: 1000px;
+  margin-left: 3000px;
+  padding:6px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.product {
+  color:white;
+  background-color: rgb(255, 255, 255,0.2);
+  opacity: 0,5;
+  max-height: 450px;
+  max-width: 250px;
+  width: 90%;
+  padding:20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.des{
+  display: block;
+  color:white;
+  margin:10px;
+}
+.product img{
+  background: transparent;
+  max-height: 50%;
+}
+
+.productspec {
+  background-color: rgb(255, 255, 255,0.2);
+  opacity: 0,5;
+  max-width: 200px;
+  max-height: 300px;
+  width: 90%;
+  margin: 70px 0;
+  padding:20px;
+  margin-left:70px;
+  margin-right: 0;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.img{
+  max-width:100px;
+  margin-left: 1000px;
+  padding-top: 10px;
+}
+
+.link {
+  background-color: #00ffcc;
+  border: none;
+  margin: 20px 0;
+  padding: 20px;
+  max-width: 250px;
+  width: 80%;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s, background-color 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.link:hover {
+  color: #2b2b2b;
+  background-color: #66ffa3;
+}
+
+.buy1 {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #4c65af;
+  max-width: 70px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:200px;
+  
+}
+
+.buy1:hover {
+  background-color: #45a049;
+  transition:1s;
+}
+.buy2{
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: rgb(210, 156, 165);
+  max-width: 70px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:500px;
+  margin-top:10px; 
+  }
+  .buy2:hover{
+    background-color: #fc766a;
+    transition: 1s;
+  }
+
+
+.over {
+  text-decoration: l;
+  margin:0px;
+  padding:0px;
+}
+
+.page {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image1s {
+  max-height: 270px;
+}
+
+
+
+
+/* Existing styles... */
+
+@media (max-width: 800px) and (min-width: 400px) {
+  body {
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+
+  header {
+    font-size: 18px;
+    width:100%;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  .description
+  
+  .link {
+    width: 1000%;
+    margin: 10px auto; /* Center the elements horizontally */
+    height:10px;
+    margin:20px 0;
+    padding:20px;
+    max-width: 250px;
+    width:80%;
+    border-radius:10px;
+    font-size:18px;
+    transition: color 0.5s,;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align:center;
+  }
+  .product{
+    margin-right:265px;
+    
+  }
+
+  .productspec {
+    max-width: 300px;
+    width: 40%;
+    height: 350px;
+    margin-right: 0;
+    padding: 10px;
+  }
+  .stan{
+    margin-top:0;
+  }
+  .over{
+    margin:0;
+    margin-bottom:0;
+  }
+  .hash{
+    margin:0;
+  }
+
+}
+body {
+  padding: 0 10px;
+  overflow-x: hidden;
+}
+
+header {
+  font-size: 18px;
+  width: 100%;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+.description,
+.product,
+.productspec,
+.link {
+  width: 100%; /* Adjusted width for smaller screens */
+  margin: 20px auto; /* Center the elements horizontally */
+}
+
+.product {
+  margin-right: 0; /* Reset margin for smaller screens */
+}
+
+.productspec {
+  max-width: 100%; /* Ensure the spec elements don't exceed screen width */
+  width: 80%; /* Adjusted width for smaller screens */
+  height: auto; /* Adjusted height for smaller screens */
+  margin-right: 0; /* Reset margin for smaller screens */
+  padding: 10px; /* Adjusted padding for smaller screens */
+}
+
+.buy1,
+.buy2 {
+  margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
